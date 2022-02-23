@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div class="main_container">
+      <div class="choices">
+        <div class="col_picker">
+          <input type="color" id="color_pallete" value="#B33030" />
+          <label for="color">Color</label>
+        </div>
+
+        <button class="btn random_color">Random Color</button>
+        <button class="btn default_color">Default Color</button>
+        <button class="btn erase_color">Color Eraser</button>
+        <button class="btn update">Update Grid</button>
+        <button class="btn remove_line">Remove Lines</button>
+        <button class="btn reset">Reset</button>
+      </div>
+      <div class="main_grid">
+        <div class="grid"></div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
